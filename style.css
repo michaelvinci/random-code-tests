@@ -1,0 +1,39 @@
+.btn {
+  border: 1px solid gray;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 50px;
+  font-weight: bold;
+  flex: 1;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+#button-container {
+  display: flex;
+}
+
+ul {
+  margin: 50px;
+}
+
+.filter-list {
+  list-style-type: none;
+  text-align: center;
+  border: 1px solid white;
+  width: 100px;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  display: none;
+}
+
+.show {
+  display: block;
+}
