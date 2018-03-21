@@ -18,8 +18,11 @@
   display: flex;
 }
 
-ul {
+#flex-list {
   margin: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .filter-list {
@@ -32,6 +35,7 @@ ul {
   color: white;
   font-weight: bold;
   display: none;
+  flex-basis: 20%;
 }
 
 .show {

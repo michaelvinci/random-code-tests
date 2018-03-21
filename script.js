@@ -42,9 +42,7 @@ function filterElements (c) {
 }
 
 function removeClass (element, name) {
-  var arr1;
-  arr1 = element.className.split(' ');
-  if (arr1.indexOf('show') > -1) {
+  if (element.className.indexOf('show') > -1) {
     element.classList.remove('show');
   }
 }
